@@ -1,28 +1,19 @@
-<h1>ProyectoDPS2021 📱🖥️💻</h1>
-<b>Desarrollo de aplicación para registro de becarios como parte del Proyecto de Catedra para la materia Desarrollo de Software Multiplataforma</b>
+<h1>ProyectoDSM2022 📱🖥️💻</h1>
+<b>Desarrollo de aplicación como parte del Proyecto de Catedra para la materia Desarrollo de Software para Móviles</b>
 
 <h1>Herramientas 🛠️ </h1>
 <p>Listado de Herramientas con las que se trabajará durante el proyecto</p>
 <ul>
-  <li>Visual Code</li>
-  <li>Mongo Compass</li>
-  <li>Postman</li>
-  <li>Git</li>
-  <li>NPM</li>
   <li>Android Studio</li>
-  <li>StarUML</li>
-  <li>Heroku (Deployment)</li>
-  <li>Balsamiq Wireframes</li>
-  <li>Snack Expo</li>
-  <li>Talend API Tester</li>
 </ul>
 
 <h1>Creadores ✒️</h1>
 <p>Integrantes del equipo de desarrollo, estudiantes de la carrera de ingeniería en computación de la Universidad Don Bosco, El Salvador</p>
 <ul>
-  <li>Brayan Gerardo Gamez Ramírez  - Grupo Teórico: <b>01T</b></li>
-  <li>David Enrique Moya Aguilar    - Grupo Teórico: <b>01T</b></li>
-  <li>José Miguel Pérez Quintanilla - Grupo Teórico: <b>01T</b></li>
+  <li>Génesis Noemi Menjivar Medrano    - Grupo Teórico: <b>03T</b> - MM170286</li>
+  <li>David Enrique Moya Aguilar        - Grupo Teórico: <b>03T</b> - MA170877</li>
+  <li>Irving Josue Obispo Saravia       - Grupo Teórico: <b>03T</b> - OS160610</li>
+  <li>Anthony Alexander Vásquez Iraheta - Grupo Teórico: <b>03T</b> - VI180187</li>
 </ul>
 
 <h1>Licencia Creative-Commons 📃🔐</h1>
