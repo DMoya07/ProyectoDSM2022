@@ -10,11 +10,12 @@
 <h1>Creadores ✒️</h1>
 <p>Integrantes del equipo de desarrollo, estudiantes de la carrera de ingeniería en computación de la Universidad Don Bosco, El Salvador</p>
 <ul>
-  <li>Génesis Noemi Menjivar Medrano    - Grupo Teórico: <b>03T</b> - MM170286</li>
-  <li>David Enrique Moya Aguilar        - Grupo Teórico: <b>03T</b> - MA170877</li>
-  <li>Irving Josue Obispo Saravia       - Grupo Teórico: <b>03T</b> - OS160610</li>
-  <li>Anthony Alexander Vásquez Iraheta - Grupo Teórico: <b>03T</b> - VI180187</li>
+  <li>Génesis Noemi Menjivar Medrano - MM170286</li>
+  <li>David Enrique Moya Aguilar - MA170877</li>
+  <li>Irving Josue Obispo Saravia - OS160610</li>
+  <li>Anthony Alexander Vásquez Iraheta - VI180187</li>
 </ul>
+<p>Grupo Teórico: <b>03T</b></p>
 
 <h1>Licencia Creative-Commons 📃🔐</h1>
 <p>Se utilizará la licencia Atribución-No Comercial-Compartir Igual <b>(CC BY-NC-SA 4.0)</b> Con esta licencia se obtienen las siguiente condiciones:</p>
