@@ -26,19 +26,10 @@
   </ol>
   
 <h1>Presentación de Proyecto - Primer Avance 📂</h1>
-<p>Primer Avance de Proyecto [PDF] <b>Visitar en</b> https://drive.google.com/file/d/10CMMi6z7IHpbYLddHGY9u2A45O8WJHYa/view?usp=sharing</p>
+<p>Primer Avance de Proyecto [PDF] <b>Visitar en</b> proximamente</p>
 
-<h1>Vídeo explicativo - Segundo Avance 📹</h1>
-<p>Enlace a vídeo de segundo avance - <b>Visualizar:</b> https://www.youtube.com/watch?v=-4S_k7FRCvE </p>
 
 <h1>Enlaces de interés ⛓️</h1>
 <ul>
-  <li>Tablero de proyecto [Trello] <b>Visitar en</b> https://trello.com/b/RBIj1zL2/proyecto </li>
-  <li>Mockups de Proyecto [PDF] <b>Visitar en</b> https://drive.google.com/file/d/1pZTiZRIL5FHwGr9DGefXo5vMBLeyMefj/view?usp=sharing </li>
-  <li>Documentación de API (Desarrollada con nodeJS y Express) <b>Visitar en</b> https://documenter.getpostman.com/view/13637029/UV5RnfwR</li>
-  <li>Enlace a API <b>Visitar en</b> https://rest-server-dps-api.herokuapp.com/ </li>
-  <li>Manual Técnico [Cloud] <b>Visitar en</b> https://drive.google.com/file/d/1UOYYWk7kDLa1MaMJF9oFhRaMMyxwoJ1b/view?usp=sharing </li>
-  <li>Manual de Usuario [Cloud] <b>Visitar en</b> https://drive.google.com/file/d/1a_QmCR7O9YRnD_d1ZJx4j0f1MjDxUaaV/view?usp=sharing </li>
-  <li>Github de creación de la API <b>Visitar en</b> https://github.com/BrayanGamez/Interns_projects_backend</li>
-  <li>Github de creación de App de Administradores <b>Visitar en</b> https://github.com/DMoya07/ProyectoDPS2021_ADMIN</li>
+  <li>Tablero de proyecto [Trello] <b>Visitar en</b></li>
 </ul>
