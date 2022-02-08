@@ -10,10 +10,10 @@
 <h1>Creadores ✒️</h1>
 <p>Integrantes del equipo de desarrollo, estudiantes de la carrera de ingeniería en computación de la Universidad Don Bosco, El Salvador</p>
 <ul>
-  <li>Génesis Noemi Menjivar Medrano - MM170286</li>
-  <li>David Enrique Moya Aguilar - MA170877</li>
-  <li>Irving Josue Obispo Saravia - OS160610</li>
-  <li>Anthony Alexander Vásquez Iraheta - VI180187</li>
+  <li>MA170877 - David Enrique Moya Aguilar</li>
+  <li>MM170286 - Génesis Noemi Menjivar Medrano</li>
+  <li>OS160610 - Irving Josue Obispo Saravia</li>
+  <li>VI180187 - Anthony Alexander Vásquez Iraheta</li>
 </ul>
 <p>Grupo Teórico: <b>03T</b></p>
 
