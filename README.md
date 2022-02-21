@@ -1,4 +1,4 @@
-<h1>ProyectoDSM2022 📱🖥️💻</h1>
+<h1>Proyecto DSM2022 📱🖥️💻</h1>
 <b>Desarrollo de aplicación como parte del Proyecto de Catedra para la materia Desarrollo de Software para Móviles</b>
 
 <h1>Herramientas 🛠️ </h1>
