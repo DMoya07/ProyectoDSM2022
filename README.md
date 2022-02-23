@@ -31,8 +31,7 @@
 
 <h1>Enlaces de interés ⛓️</h1>
 <ul>
-  <li>Tablero de proyecto [Trello] <b>Visitar en</b></li>
+  <li>Tablero de proyecto [Trello] <b>Visitar en </b><a=href>https://trello.com/b/BbKaEbfr/dsm-proyecto</a></li>
   <li>Pagina de proyecto <b>Visitar en </b><a=href>https://householdapp.net/</a></li>
+  <li>MockUps de proyecto <b>Visitar en </b><a=href>https://drive.google.com/file/d/136uYMFxMcEaLrHBWUGEQLJLC8ZeisirL/view?usp=sharing</a></li>
 </ul>
-
- * [MockUps HouseHold](https://drive.google.com/file/d/136uYMFxMcEaLrHBWUGEQLJLC8ZeisirL/view?usp=sharing)
