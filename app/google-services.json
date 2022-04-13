@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "174033906542",
+    "project_id": "controlalacena",
+    "storage_bucket": "controlalacena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174033906542:android:f71d082a1813dd9a302f7f",
+        "android_client_info": {
+          "package_name": "com.proyectodsm.controldealacena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174033906542-jo4b4lo0rkoglaapfncguml711fjpd09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5AGo3ZGNDdW95KiYctwREJE7S6Ykibwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174033906542-jo4b4lo0rkoglaapfncguml711fjpd09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
