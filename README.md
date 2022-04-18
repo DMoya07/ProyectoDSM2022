@@ -31,5 +31,8 @@
 
 <h1>Enlaces de interés ⛓️</h1>
 <ul>
-  <li>Tablero de proyecto [Trello] <b>Visitar en</b></li>
+  
+  [Tablero Trello](https://trello.com/b/BbKaEbfr/dsm-proyecto)
+  
+  [Manual de usuario](https://drive.google.com/file/d/19TV5sDxslYBO6KXHpVDD0F2785vEqhU3/view?usp=sharing)
 </ul>
