@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367730338682",
+    "project_id": "household-3db7d",
+    "storage_bucket": "household-3db7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367730338682:android:a5a055fb291b51bb1f04c3",
+        "android_client_info": {
+          "package_name": "com.example.household"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367730338682-b1fjjfvqcdcbf72ahdhan492ppp3h79s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSysDKCIkiChh2rZsnfKamaKdBT5tNltw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367730338682-b1fjjfvqcdcbf72ahdhan492ppp3h79s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
