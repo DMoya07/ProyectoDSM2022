@@ -36,5 +36,5 @@
   
   [Manual de Usuario](https://drive.google.com/file/d/19TV5sDxslYBO6KXHpVDD0F2785vEqhU3/view?usp=sharing)
   
-  [Manual de Técnico](https://drive.google.com/file/d/1gbccP6fWLRn3cv8UX5njoZ7v9Kfyh4qv/view?usp=sharing)
+  [Manual Técnico](https://drive.google.com/file/d/1gbccP6fWLRn3cv8UX5njoZ7v9Kfyh4qv/view?usp=sharing)
 </ul>
