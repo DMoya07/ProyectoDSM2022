@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">HouseHold</string>
     <string name="web_client_id">367730338682-b1fjjfvqcdcbf72ahdhan492ppp3h79s.apps.googleusercontent.com</string>
+    <string name="loginTxt">Iniciar Sesión</string>
+    <string name="CorreoLabel">Correo Electrónico</string>
+    <string name="ContrasenaLabel">Contraseña</string>
+    <string name="LoginLabelBtn">INICIAR SESION</string>
+    <string name="RegistrarLbl">No tienes cuenta en House Hold?, ¡Regístrate!</string>
+    <string name="CategoriaLbl">Categoria de Producto</string>
+    <string name="VerProductoLbl">Ver Productos</string>
+    <string name="CancelarLbl">Cancelar</string>
+    <string name="CrearCuentaLbl">Crear Nueva Cuenta</string>
+    <string name="NombreLbl">Nombre Completo</string>
+    <string name="YaTienesCuentaLbl">Ya tienes cuenta? Inicia Sesión</string>
+    <string name="RegistrarShortLbl">Registrate</string>
+    <string name="AnadirLbl">Añadir Categoria</string>
+    <string name="NombreCatLbl">Nombre de Categoria</string>
 </resources>

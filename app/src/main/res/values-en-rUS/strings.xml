@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HouseHold</string>
+    <string name="web_client_id">367730338682-b1fjjfvqcdcbf72ahdhan492ppp3h79s.apps.googleusercontent.com</string>
+    <string name="loginTxt">Sign In</string>
+    <string name="CorreoLabel">Email</string>
+    <string name="ContrasenaLabel">Password</string>
+    <string name="LoginLabelBtn">SIGN IN</string>
+    <string name="RegistrarLbl">Are you new?, Sign Up!</string>
+    <string name="CategoriaLbl">Product Category</string>
+    <string name="VerProductoLbl">List Products</string>
+    <string name="CancelarLbl">Cancel</string>
+    <string name="CrearCuentaLbl">Create New Account</string>
+    <string name="NombreLbl">Full Name</string>
+    <string name="YaTienesCuentaLbl">You already have an account? Log In!</string>
+    <string name="RegistrarShortLbl">Sign Up!</string>
+    <string name="AnadirLbl">Add Category</string>
+    <string name="NombreCatLbl">Category Name</string>
+</resources>

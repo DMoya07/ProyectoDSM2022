@@ -15,14 +15,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Añadir Categoría"
+        android:text="@string/AnadirLbl"
         android:textSize="20sp"
         android:gravity="center"
         android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/inputNombreCategoria"
-        android:hint="Nombre de Categoría"
+        android:hint="@string/NombreCatLbl"
         android:paddingTop="10dp"
         android:textColorHint="@color/black"
         android:textColor="@color/black"
@@ -32,7 +32,7 @@
     <Button
         android:id="@+id/BtnInsertar"
         android:layout_marginTop="10dp"
-        android:text="Agregar Categoría"
+        android:text="@string/AnadirLbl"
         android:backgroundTint="#4fb496"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

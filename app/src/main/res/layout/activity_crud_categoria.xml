@@ -18,7 +18,7 @@
 
         <EditText
             android:id="@+id/inputNombreCategoria"
-            android:hint="Categoría de Producto"
+            android:hint="@string/CategoriaLbl"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:paddingTop="10dp"
@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/BtnVerProductos"
-            android:text="Ver Productos"
+            android:text="@string/VerProductoLbl"
             android:backgroundTint="#4fb496"
             android:textAllCaps="false"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
 
         <Button
             android:id="@+id/BtnCancelar"
-            android:text="Cancelar"
+            android:text="@string/CancelarLbl"
             android:textColor="@color/black"
             android:backgroundTint="#dcdcdc"
             android:textAllCaps="false"
