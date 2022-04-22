@@ -130,12 +130,11 @@
         android:id="@+id/loginGoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:visibility="gone"
-        app:layout_constraintStart_toStartOf="parent"
         android:layout_below="@+id/Opcion2"
         android:layout_centerHorizontal="true"
-        app:layout_constraintTop_toBottomOf="@+id/Opcion2"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Opcion2" />
 
     <TextView
         android:id="@+id/CreateTxt"

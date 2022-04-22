@@ -19,6 +19,10 @@ import android.widget.Toast;
 
 import com.example.household.Adaptadores.ListViewCategoriasAdapter;
 import com.example.household.Models.Categoria;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -46,10 +50,18 @@ public class CrudCategoria extends AppCompatActivity {
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
 
+    GoogleSignInClient mgoogleSignInClient;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crud_categoria);
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.web_client_id))
+                .requestEmail()
+                .build();
+        mgoogleSignInClient = GoogleSignIn.getClient(this, gso);
+
         inputNombreCategoria = findViewById(R.id.inputNombreCategoria);
         btnCancelar = findViewById(R.id.BtnCancelar);
         btnProductos = findViewById(R.id.BtnVerProductos);
@@ -76,6 +88,15 @@ public class CrudCategoria extends AppCompatActivity {
 
         inicializarFirebase();
         listaCategorias();
+    }
+
+    private Boolean CheckLoggin(){
+        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
+        if(account != null){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     private void inicializarFirebase() {
@@ -212,7 +233,12 @@ public class CrudCategoria extends AppCompatActivity {
         }
     }
     public void cerrarsesion(){
-        startActivity(new Intent(getApplicationContext(),Login.class));
-        fAuth.signOut();
+        if(CheckLoggin()){
+            mgoogleSignInClient.signOut();
+        }else{
+            fAuth.signOut();
+        }
+        startActivity(new Intent(this, Login.class));
+        finish();
     }
 }
