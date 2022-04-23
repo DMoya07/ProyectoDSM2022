@@ -5,6 +5,12 @@
 <p>Listado de Herramientas con las que se trabajará durante el proyecto</p>
 <ul>
   <li>Android Studio</li>
+  <ul>
+    <li>Java</li>
+    <li>Material Design</li>
+    <li>VCS</li>
+  </ul>
+  <li>Firebase</li>
 </ul>
 
 <h1>Creadores ✒️</h1>
