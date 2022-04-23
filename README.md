@@ -18,7 +18,7 @@
 </ul>
 
 <h1>Funcionalidades ✅</h1>
-<p>House Hold presenta en esta avance sus nuevas características incomporadas</p>
+<p>House Hold presenta en este avance sus nuevas características incorporadas</p>
 <ul>
   <li>Registro de Usuarios</li>
   <li>Logueo de Usuarios</li>
