@@ -11,6 +11,10 @@
     <li>VCS</li>
   </ul>
   <li>Firebase</li>
+  <ul>
+    <li>Authentication</li>
+    <li>Real Time Database</li>
+  </ul>
 </ul>
 
 <h1>Creadores ✒️</h1>
