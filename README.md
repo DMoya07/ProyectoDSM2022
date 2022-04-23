@@ -42,5 +42,5 @@
   
   [Manual Técnico](https://drive.google.com/file/d/1gbccP6fWLRn3cv8UX5njoZ7v9Kfyh4qv/view?usp=sharing)
   
-  [Video del funcionamiento Fase 2](https://youtu.be/qadMUJ0b5Kw)
+  [Video de Funcionamiento - Fase 2](https://youtu.be/qadMUJ0b5Kw)
 </ul>
