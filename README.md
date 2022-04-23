@@ -17,6 +17,17 @@
   </ul>
 </ul>
 
+<h1>Funcionalidades ✅</h1>
+<p>House Hold presenta en esta avance sus nuevas características incomporadas</p>
+<ul>
+  <li>Registro de Usuarios</li>
+  <li>Logueo de Usuarios</li>
+  <li>Creación de Categorías de Productos</li>
+  <li>Modificación y Eliminación de Categorías</li>
+  <li>Opción de cambiar idiomas</li>
+</ul>
+<p>Estos cambios estan presentes en la versión <b>BETA</b> de House Hold</p>
+
 <h1>Creadores ✒️</h1>
 <p>Integrantes del equipo de desarrollo, estudiantes de la carrera de ingeniería en computación de la Universidad Don Bosco, El Salvador</p>
 <ul>
