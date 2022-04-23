@@ -31,15 +31,9 @@
     <li>Se puede distribuir obras derivadas bajo una licencia idéntica a la licencia que regula la original.</li>
   </ol>
   
-<h1>Presentación de Proyecto - Primer Avance 📂</h1>
-<ul>
-  
-  [Primer Avance de Proyecto](https://drive.google.com/file/d/1Vb2tAPMmz2rV-wxDYz93h0kRbIXuHnu8/view?usp=sharing)
-  
-</ul>
-
 <h1>Enlaces de interés ⛓️</h1>
 <ul>
+  [Perfil de Proyecto](https://drive.google.com/file/d/1Vb2tAPMmz2rV-wxDYz93h0kRbIXuHnu8/view?usp=sharing)
   
   [Tablero Trello](https://trello.com/b/BbKaEbfr/dsm-proyecto)
   
