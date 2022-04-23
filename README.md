@@ -32,7 +32,7 @@
   </ol>
   
 <h1>Presentación de Proyecto - Primer Avance 📂</h1>
-<p>Primer Avance de Proyecto [PDF] <b>Visitar en</b> proximamente</p>
+[Primer Avance de Proyecto](https://drive.google.com/file/d/1Vb2tAPMmz2rV-wxDYz93h0kRbIXuHnu8/view?usp=sharing)
 
 
 <h1>Enlaces de interés ⛓️</h1>
