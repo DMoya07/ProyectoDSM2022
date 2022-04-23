@@ -33,7 +33,7 @@
   
 <h1>Presentación de Proyecto - Primer Avance 📂</h1>
 <ul>
-[Primer Avance de Proyecto] (https://drive.google.com/file/d/1Vb2tAPMmz2rV-wxDYz93h0kRbIXuHnu8/view?usp=sharing)
+[Primer Avance de Proyecto](https://drive.google.com/file/d/1Vb2tAPMmz2rV-wxDYz93h0kRbIXuHnu8/view?usp=sharing)
 </ul>
 
 <h1>Enlaces de interés ⛓️</h1>
