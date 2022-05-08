@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".CrudCategoria">
+    tools:context=".CrudProductos">
 
     <LinearLayout
-        android:id="@+id/linearLayoutEditar"
+        android:id="@+id/linearLayoutEditarProducto"
         android:orientation="vertical"
         android:layout_margin="10dp"
         android:background="@color/white"
@@ -17,7 +17,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/inputNombreCategoria"
+            android:id="@+id/inputNombreProducto"
             android:hint="@string/CategoriaLbl"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
@@ -35,7 +35,7 @@
 
 
         <Button
-            android:id="@+id/BtnCancelar"
+            android:id="@+id/BtnCancelarProd"
             android:text="@string/CancelarLbl"
             android:textColor="@color/black"
             android:backgroundTint="#dcdcdc"

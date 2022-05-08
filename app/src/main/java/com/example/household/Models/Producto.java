@@ -5,7 +5,7 @@ public class Producto {
     private String nombreProducto;
     private String cantProducto;
     private String fechaVencimiento;
-//    private long timestamp;
+    private long timestamp;
 
     public String getidProducto() {
         return idProducto;
@@ -23,13 +23,13 @@ public class Producto {
         this.nombreProducto = nombreProducto;
     }
 
-//    public long getTimestamp() {
-//        return timestamp;
-//    }
-//
-//    public void setTimestamp(long timestamp) {
-//        this.timestamp = timestamp;
-//    }
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
+    }
 
 
     public String getCantProducto() {

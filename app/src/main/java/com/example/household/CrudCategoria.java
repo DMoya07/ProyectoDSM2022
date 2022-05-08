@@ -67,7 +67,7 @@ public class CrudCategoria extends AppCompatActivity {
         btnCancelar = findViewById(R.id.BtnCancelar);
         btnProductos = findViewById(R.id.BtnVerProductos);
 
-        listViewCategorias = findViewById(R.id.ListViewProductos);
+        listViewCategorias = findViewById(R.id.ListViewCategorias);
         linearLayoutEditar = findViewById(R.id.linearLayoutEditar);
 
         listViewCategorias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -75,7 +75,7 @@ public class CrudCategoria extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 categoriaSeleccionada = (Categoria) adapterView.getItemAtPosition(i);
                 inputNombreCategoria.setText(categoriaSeleccionada.getNombrecategoria());
-
+                //listViewProducto.findViewById(R.id.inputNombreCategoria);
                 //Hacemos visible el layout de edición
                 linearLayoutEditar.setVisibility(View.VISIBLE);
             }
@@ -94,7 +94,7 @@ public class CrudCategoria extends AppCompatActivity {
                 Intent i = new Intent(getBaseContext(),CrudProductos.class);
                 i.putExtra("idCategoria", categoriaSeleccionada.getIdCategoria());
                 startActivity(i);
-                finish();
+                //finish();
             }
         });
         inicializarFirebase();
@@ -151,7 +151,10 @@ public class CrudCategoria extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        View mView = getLayoutInflater().inflate(R.layout.insertar_categoria,null);
         String nombrecategoria = inputNombreCategoria.getText().toString();
+        Button btnListproductos = (Button) mView.findViewById(R.id.BtnVerProductos);
+
         switch (item.getItemId()){
             case R.id.menu_agregar:
                 insertar();
@@ -188,7 +191,12 @@ public class CrudCategoria extends AppCompatActivity {
             case R.id.menu_logout:
                 cerrarsesion();
                 break;
-
+            case R.id.BtnVerProductos:
+                Intent intent = new Intent(this, CrudProductos.class);
+                String idCategoria = categoriaSeleccionada.getIdCategoria().toString();
+                intent.putExtra("idCategoria",idCategoria);
+                startActivity(intent);
+                break;
         }
 
         return super.onOptionsItemSelected(item);
@@ -219,6 +227,7 @@ public class CrudCategoria extends AppCompatActivity {
 
                     databaseReference.child("Categorias").child(c.getIdCategoria()).setValue(c);
                     Toast.makeText(CrudCategoria.this, "Registrado Correctamente", Toast.LENGTH_SHORT).show();
+                    dialog.hide();
                 }
             }
         });
@@ -249,6 +258,7 @@ public class CrudCategoria extends AppCompatActivity {
         if(CheckLoggin()){
             mgoogleSignInClient.signOut();
         }else{
+            FirebaseAuth fAuth = FirebaseAuth.getInstance();
             fAuth.signOut();
         }
         startActivity(new Intent(this, Login.class));
