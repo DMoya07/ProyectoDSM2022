@@ -29,6 +29,8 @@ public class Categoria {
         this.timestamp = timestamp;
     }
 
+
+
     @Override
     public String toString() {
         return nombrecategoria;

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_agregar_producto"
+        android:title="Agregar"
+        android:icon="@drawable/ic_agregar"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_guardar_producto"
+        android:title="Guardar"
+        android:icon="@drawable/ic_guardar"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_eliminar_producto"
+        android:title="Eliminar"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menu_logout_producto"
+        android:icon="@drawable/ic_logout"
+        android:title="Cerrar Sesión"
+        app:showAsAction="always"
+        />
+
+
+</menu>

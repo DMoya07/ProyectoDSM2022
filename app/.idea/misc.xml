@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/activity_crud_categoria.xml" value="0.33" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/activity_crud_productos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/activity_insertar_producto.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/activity_login.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/activity_main.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/activity_register.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/insert_producto.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/insertar_categoria.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/layout/lista_categorias.xml" value="0.2" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/menu/crud_categoria_menu.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/vasqu/AndroidStudioProjects/ProyectoDSM2022/app/src/main/res/menu/crud_producto_menu.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

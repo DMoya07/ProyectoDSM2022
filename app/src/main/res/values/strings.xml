@@ -14,5 +14,13 @@
     <string name="YaTienesCuentaLbl">Ya tienes cuenta? Inicia Sesión</string>
     <string name="RegistrarShortLbl">Registrate</string>
     <string name="AnadirLbl">Añadir Categoria</string>
+
     <string name="NombreCatLbl">Nombre de Categoria</string>
+    <string name="AnadirPro">Añadir Producto</string>
+    <string name="NombreProLbl">Nombre</string>
+    <string name="CantProLbl">Cantidad</string>
+    <string name="FecVenProLbl">Fecha vencimiento</string>
+
+
+
 </resources>

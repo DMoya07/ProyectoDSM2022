@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HouseHold">
         <activity
-            android:name=".CrudCategoria"
+            android:name=".CrudProductos"
             android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".CrudCategoria"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".CrudCategoria"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

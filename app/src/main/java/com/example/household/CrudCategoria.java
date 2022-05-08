@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -66,7 +67,7 @@ public class CrudCategoria extends AppCompatActivity {
         btnCancelar = findViewById(R.id.BtnCancelar);
         btnProductos = findViewById(R.id.BtnVerProductos);
 
-        listViewCategorias = findViewById(R.id.ListViewCategorias);
+        listViewCategorias = findViewById(R.id.ListViewProductos);
         linearLayoutEditar = findViewById(R.id.linearLayoutEditar);
 
         listViewCategorias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -74,6 +75,7 @@ public class CrudCategoria extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 categoriaSeleccionada = (Categoria) adapterView.getItemAtPosition(i);
                 inputNombreCategoria.setText(categoriaSeleccionada.getNombrecategoria());
+
                 //Hacemos visible el layout de edición
                 linearLayoutEditar.setVisibility(View.VISIBLE);
             }
@@ -86,6 +88,15 @@ public class CrudCategoria extends AppCompatActivity {
             }
         });
 
+        btnProductos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getBaseContext(),CrudProductos.class);
+                i.putExtra("idCategoria", categoriaSeleccionada.getIdCategoria());
+                startActivity(i);
+                finish();
+            }
+        });
         inicializarFirebase();
         listaCategorias();
     }
@@ -167,6 +178,7 @@ public class CrudCategoria extends AppCompatActivity {
                     c2.setIdCategoria(categoriaSeleccionada.getIdCategoria());
                     databaseReference.child("Categorias").child(c2.getIdCategoria()).removeValue();
                     Toast.makeText(this, "Categoría eliminada", Toast.LENGTH_SHORT).show();
+
                     linearLayoutEditar.setVisibility(View.GONE);
                     categoriaSeleccionada = null;
                 }else{
@@ -204,6 +216,7 @@ public class CrudCategoria extends AppCompatActivity {
                     c.setIdCategoria(UUID.randomUUID().toString());
                     c.setNombrecategoria(nombrecategoria);
                     c.setTimestamp(getFechaMilisegundos()*-1);
+
                     databaseReference.child("Categorias").child(c.getIdCategoria()).setValue(c);
                     Toast.makeText(CrudCategoria.this, "Registrado Correctamente", Toast.LENGTH_SHORT).show();
                 }
