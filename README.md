@@ -18,12 +18,14 @@
 </ul>
 
 <h1>Funcionalidades ✅</h1>
-<p>House Hold presenta en este avance sus nuevas características incorporadas</p>
+<p>House Hold presenta en su versión final sus características</p>
 <ul>
   <li>Registro de Usuarios</li>
   <li>Logueo de Usuarios</li>
   <li>Creación de Categorías de Productos</li>
   <li>Modificación y Eliminación de Categorías</li>
+  <li>Creación de Productos</li>
+  <li>Modificación y Eliminación de Productos</li>
   <li>Opción de cambiar idiomas</li>
 </ul>
 <p>Estos cambios estan presentes en la versión <b>BETA</b> de House Hold</p>
@@ -43,7 +45,7 @@
   <ol>
     <li>El beneficiario de la licencia tiene derecho a poder copiar, distribuir, exhibir y representar la obra en cuestión y hacer derivadas de esta siempre y cuando se reconozca y se cite la obra de la forma especificada por el autor.</li>
     <li>No se podrá utilizar para fines comerciales.</li>
-    <li>Se puede distribuir obras derivadas bajo una licencia idéntica a la licencia que regula la original.</li>
+    <li>Se puede distribuir obras derivadas bajo una licencia idéntica a la licencia que regula la original</li>
   </ol>
   
 <h1>Enlaces de interés ⛓️</h1>
@@ -59,5 +61,5 @@
   
   [Manual Técnico](https://drive.google.com/file/d/1gbccP6fWLRn3cv8UX5njoZ7v9Kfyh4qv/view?usp=sharing)
   
-  [Video de Funcionamiento - Fase 2](https://youtu.be/qadMUJ0b5Kw)
+  [Video Publicitario](https://www.youtube.com/watch?v=L2R0chBoHEY)
 </ul>
